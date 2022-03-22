@@ -4,14 +4,12 @@
         <title>
             sample design
         </title>
-        <link rel="stylesheet" href="css/frontdesign.css">
-        <script type="javascript" src="index.js"></script>
     </head>
     <body>
         <div class="main">
             <div class="left-design">
                 <div id="displaySignup"></div>
-                    <form method="post" id="signup"></form>
+                    <form method="post" id="login">
                         <div class="login">
                             <div class="header">
                                 Welcome back
@@ -23,13 +21,13 @@
                             <label>Email</label>
                         </div>
                         <div class="email-input">
-                            <input type="Email" value="Enter your Email"/>
+                            <input type="Email" id="email" placeholder="Enter your Email"/>
                         </div>
                         <div class="Password">
                             <label>Password</label>
                         </div>
                         <div class="pass-input">
-                            <input type="password" value="......"/>
+                            <input type="password" id="pass" placeholder="......"/>
                         </div>
                         <div class="text">
                             <p> <input type="checkbox"/>
@@ -37,7 +35,7 @@
                             <a>Forgot Password</a></p>
                         </div>
                         <div class="button1">
-                            <input type="button" value="Sign in"/>
+                            <input type="submit" value="Sign in"/>
                         </div>
                         <div class="button2">
                             <img src="google-logo.png"/>
@@ -50,9 +48,8 @@
                         </div>
                     </form>
                 </div>
-                </div>
             <div class="right-design">
-                <img src="src/images.png"/>
+            </div>
             </div>
     </body>
 </html>
