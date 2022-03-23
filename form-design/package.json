@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server"
+    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/sass-loader": "^8.0.3",
     "css-loader": "^6.7.1",
     "extract-css-chunks-webpack-plugin": "^4.9.0",
+    "firebase": "^9.6.9",
     "mini-css-extract-plugin": "^2.6.0",
     "node": "^17.7.1",
     "node-modules": "^1.0.1",
